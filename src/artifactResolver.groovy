@@ -8,9 +8,9 @@
  */
 
 @Grapes([
-    @Grab('org.slf4j:jcl-over-slf4j:1.7.22'),
-    @Grab('org.slf4j:slf4j-api:1.7.22'),
-    @Grab('org.slf4j:slf4j-simple:1.7.22'),
+    @Grab('org.slf4j:jcl-over-slf4j:1.7.26'),
+    @Grab('org.slf4j:slf4j-api:1.7.26'),
+    @Grab('org.slf4j:slf4j-simple:1.7.26'),
     @GrabConfig(systemClassLoader = true)
 ])
 
@@ -20,7 +20,7 @@
 @Grab('org.eclipse.aether:aether-transport-file:1.1.0')
 @Grab('org.eclipse.aether:aether-connector-basic:1.1.0')
 // commons cli is Grabbed to help scriptjar.groovy to bundle it, otherwise normally picked up from
-@Grab('commons-cli:commons-cli:1.2')
+@Grab('commons-cli:commons-cli:1.4')
 
 import groovy.util.logging.Slf4j
 import org.eclipse.aether.RepositorySystem
