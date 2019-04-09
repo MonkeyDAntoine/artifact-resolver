@@ -21,6 +21,7 @@
 @Grab('org.eclipse.aether:aether-connector-basic:1.1.0')
 // commons cli is Grabbed to help scriptjar.groovy to bundle it, otherwise normally picked up from
 @Grab('commons-cli:commons-cli:1.4')
+@Grab('org.codehaus.groovy:groovy-all:2.5.6')
 
 import groovy.util.logging.Slf4j
 import org.eclipse.aether.RepositorySystem
